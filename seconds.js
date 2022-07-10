@@ -6,7 +6,7 @@ if (memory.getItem('text') !== null) {
     text = 1;
 }
 window.setInterval(function() {
-    text += 1;
+    text += 100000;
     number.innerHTML = text;
     memory.removeItem('text');
     memory.setItem('text', text);
